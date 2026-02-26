@@ -1,0 +1,16 @@
+if SHIELD_KYRAKB_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "KyraKb"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # SHIELD_KYRAKB_LEFT
+
+if SHIELD_KYRAKB_LEFT || SHIELD_KYRAKB_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif # SHIELD_KYRAKB_LEFT || SHIELD_KYRAKB_RIGHT

@@ -1,0 +1,5 @@
+config SHIELD_KYRAKB_LEFT
+    def_bool $(shields_list_contains,kyrakb_left)
+
+config SHIELD_KYRAKB_RIGHT
+    def_bool $(shields_list_contains,kyrakb_right)
