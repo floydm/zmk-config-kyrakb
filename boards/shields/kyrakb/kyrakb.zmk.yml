@@ -16,6 +16,10 @@ features:
   - keys
   - studio # Remove this line if your keyboard will not support ZMK Studio
 
+layouts:
+  - transform: default_transform
+    physical: physical_layout0
+
 requires:
   - seeed_xiao
 

@@ -3,6 +3,14 @@ if SHIELD_KYRAKB_LEFT
 config ZMK_KEYBOARD_NAME
     default "KyraKb"
 
+config ZMK_STUDIO
+    bool
+    default y
+
+config ZMK_STUDIO_RPC_USB_UART
+    bool
+    default y
+
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
