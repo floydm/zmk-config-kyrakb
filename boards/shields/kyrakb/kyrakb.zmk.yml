@@ -17,7 +17,7 @@ features:
   - studio # Remove this line if your keyboard will not support ZMK Studio
 
 layouts:
-  - transform: default_transform
+  - transform: matrix_transform0
     physical: physical_layout0
 
 requires:
