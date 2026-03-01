@@ -1,9 +1,13 @@
 if SHIELD_KYRAKB_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "KyraKb"
+    default "KyraKB"
 
 config ZMK_STUDIO
+    bool
+    default y
+
+config ZMK_STUDIO_COMBOS
     bool
     default y
 
